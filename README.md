@@ -1,27 +1,13 @@
+<a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
+
 # GithubFindRepos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+A project to learn and apply front-end angular concepts. It is my first project using this stack and coding something simple.
 
-## Development server
+# Idea
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The idea is very simple: the code just go to the github api and some repo that a requested on front end. After all, I list everything on the screen.
 
-## Code scaffolding
+# Next stop
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The idea is simple: I have a screen where I list the repositories related to angular. I have a search field where I can type a term. When pressing enter, I make a request to the github api to bring me repositories referring to that term. Having the data, I list them on the screen.
