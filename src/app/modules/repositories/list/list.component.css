@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container ul {
+    margin-left: -30px;
+}

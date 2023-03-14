@@ -1,0 +1,15 @@
+<section class="container">
+    <app-search-repo
+    (emitSearchRepo)="get($event)"
+    >
+    </app-search-repo>
+
+    <ul *ngIf="!loading">
+        <app-list-item
+            *ngFor="let item of repositories"
+            [repo]="item">
+        </app-list-item>
+    </ul>
+
+    <app-loading *ngIf="loading"></app-loading>
+</section>

@@ -1,0 +1,22 @@
+li {
+    display: flex;
+    border: 1px solid #31363e;
+    padding: 16px;
+    list-style: none;
+    border-radius: 16px;
+}
+
+li .info a {
+    text-decoration: none;
+    line-height: 1.25;
+    color: #53a1f5;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+li .img {
+    width: 20px;
+    height: 20px;
+}
